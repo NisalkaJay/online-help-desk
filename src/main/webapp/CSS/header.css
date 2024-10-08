@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Quicksand&display=swap');
+
+.container {
+	height: 120%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgb(0, 128, 192);
+}
+.lead { font-family: 'Quicksand'; }
+.header-bar {
+	position: relative;
+	min-width: 100%;
+	height: 50px;
+	border: 10px solid transparent;
+	border-top: 10px solid #fffa;
+	border-left: 10px solid #fffa;
+	border-right: 10px solid #fffa;
+	border-bottom: 10px solid #fffa;
+}
+.slider-menu {
+	position: relative;
+	display: flex;
+	list-style-type: none;
+	justify-content: center	;
+	align-items: center; /* Center the items vertically */
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+.slider-menu > li {
+	display: inline-flex;
+	padding: 14px;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s linear all;
+	user-select: none;
+}
+.slider-menu > li:hover {
+	color : black;
+	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
+}
+
+.slider-menu li a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+
+.un2 {
+	text-align: center;
+    display: block; /* Make it a block-level element */
+    margin: 0 auto; /* Center the block-level element */
+    height: 70px;
+    font-size: 20px;
+}
+
+
+.logo-left {
+    position: absolute;
+    bottom: 55px;
+    left: 25px;
+     width: 100px; /* Set the width of your logos */
+    height: auto;
+}
+
+.logo-right {
+    position: absolute;
+    bottom: 55px;
+    right:25px;
+     width: 280px;
+     height: auto;
+}
+
+
+.profile-button {
+  position: fixed;
+  top: 10px;
+  right: 40px;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.profile-button a {
+  color: #fff;
+  text-decoration: none;
+}
+

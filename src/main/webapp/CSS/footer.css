@@ -1,0 +1,36 @@
+
+
+.footer-section {
+    color: #fff; /* Set the text color */
+    padding-top: 350px;
+}
+
+.footer-cta .single-cta {
+    text-align: center;
+}
+
+
+.footer-cta .single-cta h4 {
+    font-size: 18px; /* Adjust the heading size */
+    margin-top: 10px; /* Add some space between icon and text */
+}
+
+.footer-cta .single-cta span {
+    display: block; /* Make the contact info appear on a new line */
+    font-size: 16px; /* Adjust the font size */
+    margin-top: 10px; /* Add some space between lines */
+}
+
+.footer-social-icon {
+    text-align: center;
+    margin-top: 30px; /* Add space between contact info and social icons */
+}
+
+.footer-social-icon a {
+    display: inline-block;
+    margin: 0 10px; /* Add space between social icons */
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Adjust the icon size */
+}
+

@@ -1,0 +1,52 @@
+
+/* useraccountcss.css */
+
+.profile-container {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+    border: 1px solid #ccc; /* Add a border around the container */
+    padding: 20px; /* Add some padding inside the container */
+    box-sizing: border-box; /* Include border and padding in the total width */
+}
+
+.profile-header {
+    text-align: center; /* Center the header content */
+}
+
+.profile-picture {
+    max-width: 100px; /* Adjust the max width of the profile picture */
+    border-radius: 50%; /* Make the picture round if needed */
+}
+
+.form-group {
+    margin-bottom: 10px; /* Add space between form groups */
+}
+
+.form-group label {
+    display: block; /* Make labels display as blocks for better spacing */
+}
+
+.form-group input {
+    width: 100%; /* Make input fields fill the width of their container */
+    padding: 8px; /* Add some padding inside the input fields */
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+h1{
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+}
+.faq {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.question {
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 15px;
+	padding-bottom: 5px;
+	
+}
+
+.answer {
+	display: none;
+	padding-bottom: 5px;
+}
